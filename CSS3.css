@@ -1,0 +1,324 @@
+/*general*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+
+h1
+{
+font-family: "Crete Round" , serif;
+font-size: 45px;
+columns: #444;/*couleur en hexadécimal*/
+}
+
+h2
+{
+    color: #444;
+    font-size: 75px;
+}
+
+h3
+{
+font-size: 30px;
+color: #444;
+}
+
+h4
+{
+font-size: 24px;
+color:#444;
+text-align: center;
+}
+
+p
+{
+line-height: 20px;
+color:#777;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.anime
+{
+    width: 950px;
+    margin: 0 auto;/*pour centrer nos elements*/
+    padding: 0 10px;
+}
+
+.orange
+{
+    color: orangered;
+}
+.clear
+{
+    clear: both;/*pour avoir plus de place entre la section 2 et 3*/
+}
+
+small
+{
+    font-size: 12pxpx;
+    color: black;
+    font-style: italic;
+}
+
+/*header*/
+header
+{
+    height: 120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a
+{
+ text-transform: uppercase;   
+ font-weight: bold;
+ margin-right: 20px;
+}
+
+/*main image*/
+#main-image
+{
+    height: 500px;
+    background: url('images/anime20.gif') center;
+    
+}
+
+#main-image h2
+{
+font-weight: normal;
+text-transform: uppercase;
+text-align: center;
+padding: 150px 0px 40px 0px;
+margin-bottom: 20px;
+}
+
+.button1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+.button1:hover
+{
+    background:#FF80ED ;
+}
+
+/*clothes*/
+#clothes ul
+{
+margin: 50px 0;
+}
+
+#clothes ul li
+{
+  width: 300px;  
+  float: left;
+  padding-top: 280px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+#clothes h4
+{
+ text-transform: uppercase; 
+ margin-bottom: 20px;  
+}
+
+#clothes p
+{
+margin-bottom: 20px;
+}
+
+#first
+{
+ background: url('images/shirt1.png') no-repeat top center;   
+}
+
+#second
+{
+    background: url('images/sho3.png') no-repeat top center ; 
+  
+}
+
+#third
+{
+    background: url('images/COSPLAY.png') no-repeat top center; 
+}
+
+/*Anime posters and manga*/
+
+#posters
+{
+  background-color: #FBCBD7;/*thanks to color-hex.com*/
+  padding: 15px 0;
+}
+
+#posters article
+{
+    width: 460px;
+    height: 700px;
+    float: left;
+    border-radius: 10px;
+}
+
+#posters article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background:rgba(255,255,255, 0.7);
+    height: 100%;
+    width: 190px;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.overlay p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article h4
+{
+border-bottom: 1px solid #444;
+padding-bottom: 20px;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+.button2
+{
+    color: white;
+    background-color: orangered;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button2:hover
+{
+    color: white;
+    background-color: #FF80ED;
+}
+
+/*contact*/
+#contact
+{
+padding: 60px 0;
+text-align: center;
+}
+
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #b33a64;
+    padding-bottom: 20px;
+}
+
+form
+{
+margin: 60px 0 20px 0;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"]
+{
+padding: 10px;
+font-size: 20px;
+margin-right: 20px;
+border: 2px solid #ddd;
+border-radius: 3px;
+}
+input[type="email"]
+{
+padding: 10px;
+font-size: 20px;
+margin-right: 20px;
+border: 2px solid #ddd;
+border-radius: 3px;
+}
+
+.button3
+{
+    color: white;
+    font-weight: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color:#b33a64 ;
+    border-style:none;
+}
+.button3:hover
+{
+    color: white;
+    background-color: #691130;
+}
+
+/*footer*/
+
+footer
+{
+    height:260px;
+    background-color: #444;
+}
+
+footer h1
+{
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+.Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+}
